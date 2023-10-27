@@ -1,5 +1,5 @@
-// 2. Build a basic lightning component that can query a list of 10 most recently created accounts and display it using a lightning app.
-// Step.1 Create a Lightning Component named "RecentAccounts.cmp":
+<!-- 2. Build a basic lightning component that can query a list of 10 most recently created accounts and display it using a lightning app.
+ Step.1 Create a Lightning Component named "RecentAccounts.cmp": -->
 <aura:component controller="AccountController">
     <aura:attribute name="accounts" type="Account[]" />
     
