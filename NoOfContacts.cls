@@ -1,3 +1,5 @@
+// 1. Create a field on Account named "Number of Contacts". Populate this field with the number of contacts related to an account. 
+
 trigger UpdateNumberOfContacts on Contact (after insert, after update, after delete) {
     Map<Id, Account> accountsToUpdate = new Map<Id, Account>();
     
