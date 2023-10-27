@@ -1,3 +1,7 @@
+//3. Make a basic http callout and print the result using system.debug
+
+//https://postman-echo.com/get?foo1=bar1&foo2=bar2
+
 public class HttpCalloutSample {
 
   // Pass in the endpoint to be used using the string url
